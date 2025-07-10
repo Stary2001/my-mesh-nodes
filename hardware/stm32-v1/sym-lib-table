@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wio")(type "Legacy")(uri "${KIPRJMOD}/LoRa-E5_kicad/LoRa-E5.lib")(options "")(descr ""))
+)
