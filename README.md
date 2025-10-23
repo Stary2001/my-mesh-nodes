@@ -1,12 +1,14 @@
-These nodes are built to fit on the back of a 2x18650 battery holder, with 2 cells in parallel.
+Here's all my mesh stuff.
+Everything here is licensed under CERN OHL-P.
 
-## Common features
-  * Solar MPPT charging with CN3791 (buck)
-  * USB charging with CN3163 (linear)
-  * Vbat -> 3.3 using TLV62568 sync buck for high efficiency
-  * Integrated INA3221 for current monitoring of battery, solar, 3v3 voltage and current
-  * AHT21 for "is my node currently on fire or underwater" temperature/humidity sensing
-## stm32-v1
-  * STM32WL with Wio-E5 module
-  * Integrated USB serial with CH340N
-  * A conveniently shaped header for a [LTE module](https://shop.pimoroni.com/products/clipper-breakout)
+## STM32 all in one node (stm32-v1)
+Tested, works (as much as STM32 can).
+
+## Ebyte E22P hat (ebyte-e22p-30-zero)
+Tested, works. See [here](https://mesh.9net.org/hardware/e22p-30db-zero-hat/) for documentation.
+
+## Ebyte E80 hat (ebyte-e80-22-zero)
+Tested, works. See [here](https://mesh.9net.org/hardware/e80-lr1121-zero-hat/) for documentation.
+
+## PSRAM addon (psram-addon)
+Untested. Use at your own risk.
